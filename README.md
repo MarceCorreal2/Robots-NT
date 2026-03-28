@@ -24,7 +24,7 @@ ROBOTS-NT
 ├── research/
 │   ├──general
 │   ├──strategies/
-│  
+│ 
 │
 ├── bots/
 │   ├── nt bts
@@ -36,6 +36,7 @@ ROBOTS-NT
   │   │   └── results.ipynb
 │
 ├── data/
+│   ├── how take and save data/
 │   ├── raw/
 │   └── processed/
 │
