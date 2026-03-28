@@ -1,5 +1,4 @@
-**ROBOTS - NINJA TRADER 
-- INVERBOTS**
+**ROBOTS - NINJA TRADER - INVERBOTS**
 
 Espacio para guardar toda la info del desarrollo del aprendizaje de Bots de trading, iniciando por intentar replicar Inverbot
 
@@ -19,8 +18,7 @@ ROBOTS-NT
 ├── README.md
 │
 ├── journal/
-│   └── trading_journal.ipynb
-│
+│   │
 ├── research/
 │   ├──general
 │   ├──strategies/
