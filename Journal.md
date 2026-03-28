@@ -4,7 +4,7 @@ ChattyPullbackStrtegy
 
 # 2026-03-28
 Cree el drive en mcg.interb@gmail.com
-Colab
+Inicié Colab
 Github2 MarceCorreal2
 Pass. Trade321*
 
