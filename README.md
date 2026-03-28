@@ -1,5 +1,5 @@
 **ROBOTS - NINJA TRADER 
-INVERBOTS**
+- INVERBOTS**
 
 Espacio para guardar toda la info del desarrollo del aprendizaje de Bots de trading, iniciando por intentar replicar Inverbot
 
