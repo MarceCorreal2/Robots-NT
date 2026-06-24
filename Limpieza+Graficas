@@ -38,7 +38,7 @@
         "pd.set_option('display.max_rows', 100)\n",
         "pd.set_option('display.max_columns', None)"
       ],
-      "execution_count": 90,
+      "execution_count": 100,
       "outputs": []
     },
     {
@@ -48,7 +48,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "13cda507",
-        "outputId": "851c0e0b-da91-4646-870a-d78495c35f5a"
+        "outputId": "14366c95-23f2-465a-95d1-36c90a66bca2"
       },
       "source": [
         "# Celda 2 — Conectar Drive\n",
@@ -56,7 +56,7 @@
         "from google.colab import drive\n",
         "drive.mount('/content/drive')"
       ],
-      "execution_count": 91,
+      "execution_count": 101,
       "outputs": [
         {
           "output_type": "stream",
@@ -86,7 +86,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "d46aa31f",
-        "outputId": "c4dd2baf-e2d1-4e8c-edfd-82b195be2f38"
+        "outputId": "ee7565df-04b0-49e1-b660-bc0bbf9bae08"
       },
       "source": [
         "# Celda 3 — Se establecen las variables\n",
@@ -99,7 +99,7 @@
         "print(f\"Test Number: {test_number}\")\n",
         "print(f\"Instrument: {instrument}\")"
       ],
-      "execution_count": 92,
+      "execution_count": 102,
       "outputs": [
         {
           "output_type": "stream",
@@ -131,7 +131,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "97bbfaed",
-        "outputId": "c6b87816-7411-437d-fe14-6be28b77c485"
+        "outputId": "5c5a23dc-fefd-4f8a-89cd-09e2d0510e41"
       },
       "source": [
         "# Celda 4 - Generación rutas dinámicas\n",
@@ -161,7 +161,7 @@
         "print(f\"Ruta de archivo de datos limpios: {cleaned_data_file_path}\")\n",
         "print(f\"Directorio de salida de gráficas: {graph_output_directory}\")"
       ],
-      "execution_count": 93,
+      "execution_count": 103,
       "outputs": [
         {
           "output_type": "stream",
@@ -194,7 +194,7 @@
           "height": 366
         },
         "id": "91ef2855",
-        "outputId": "8447630c-f13e-49ed-d919-67420337a8ee"
+        "outputId": "ae4f8a97-0969-4bfd-cc3a-7da9f2814442"
       },
       "source": [
         "# Celda 5 — Carga de archivo crudo  CSV\n",
@@ -213,7 +213,7 @@
         "print(f\"DataFrame cargado con {df.shape[0]} filas y {df.shape[1]} columnas.\")\n",
         "display(df.head())"
       ],
-      "execution_count": 94,
+      "execution_count": 104,
       "outputs": [
         {
           "output_type": "stream",
@@ -256,7 +256,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-421d6cd9-15e6-4bc5-a621-41d223784371\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-fd71f06d-435a-416b-980a-47bc930671c8\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -437,7 +437,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-421d6cd9-15e6-4bc5-a621-41d223784371')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-fd71f06d-435a-416b-980a-47bc930671c8')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -489,12 +489,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-421d6cd9-15e6-4bc5-a621-41d223784371 button.colab-df-convert');\n",
+              "        document.querySelector('#df-fd71f06d-435a-416b-980a-47bc930671c8 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-421d6cd9-15e6-4bc5-a621-41d223784371');\n",
+              "        const element = document.querySelector('#df-fd71f06d-435a-416b-980a-47bc930671c8');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -545,7 +545,7 @@
           "height": 1000
         },
         "id": "2ac21835",
-        "outputId": "520a40b0-8c5a-4045-c318-b62f0bd9a58c"
+        "outputId": "03c7d502-d8b8-4719-ac66-aeb066140c25"
       },
       "source": [
         "# Celda 6 - Limpieza del archivo\n",
@@ -585,7 +585,7 @@
         "print(\"\\nDisplaying the first few rows of the cleaned DataFrame:\")\n",
         "display(df.head())"
       ],
-      "execution_count": 95,
+      "execution_count": 105,
       "outputs": [
         {
           "output_type": "stream",
@@ -688,7 +688,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-229caa9b-6629-437e-958d-d56c28594c5b\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-3c18b66e-07c5-4474-a972-171db6f1a28a\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -869,7 +869,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-229caa9b-6629-437e-958d-d56c28594c5b')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-3c18b66e-07c5-4474-a972-171db6f1a28a')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -921,12 +921,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-229caa9b-6629-437e-958d-d56c28594c5b button.colab-df-convert');\n",
+              "        document.querySelector('#df-3c18b66e-07c5-4474-a972-171db6f1a28a button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-229caa9b-6629-437e-958d-d56c28594c5b');\n",
+              "        const element = document.querySelector('#df-3c18b66e-07c5-4474-a972-171db6f1a28a');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -976,7 +976,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "2f26608c",
-        "outputId": "37020420-6b6e-409b-ab6b-6cf3126b9456"
+        "outputId": "c41b36e3-2857-42be-a096-24af1d53cc34"
       },
       "source": [
         "# Celda 7 — Guardar Datos Limpios\n",
@@ -997,7 +997,7 @@
         "\n",
         "print(f\"DataFrame limpio guardado en: {cleaned_data_file_path}\")"
       ],
-      "execution_count": 96,
+      "execution_count": 106,
       "outputs": [
         {
           "output_type": "stream",
@@ -1028,7 +1028,7 @@
           "height": 736
         },
         "id": "66785a05",
-        "outputId": "c5dab304-ef12-48c5-879a-a94b4198133b"
+        "outputId": "99754c75-3fd5-47f0-93b1-2c286ee507e7"
       },
       "source": [
         "# Celda 8 — Generación de Gráficas (Equity)\n",
@@ -1061,7 +1061,7 @@
         "plt.show()\n",
         "plt.close()"
       ],
-      "execution_count": 97,
+      "execution_count": 107,
       "outputs": [
         {
           "output_type": "stream",
@@ -1090,7 +1090,7 @@
           "height": 976
         },
         "id": "be5fa161",
-        "outputId": "24a7d7e5-9fa3-4965-8e48-b9b841884646"
+        "outputId": "75fda376-9e24-4da8-b171-fb29394173ab"
       },
       "source": [
         "# Celda 9 — Generación de Graficas (Draw Down))\n",
@@ -1153,7 +1153,7 @@
         "plt.show()\n",
         "plt.close(fig)"
       ],
-      "execution_count": 98,
+      "execution_count": 108,
       "outputs": [
         {
           "output_type": "stream",
@@ -1182,7 +1182,7 @@
           "height": 787
         },
         "id": "727fefca",
-        "outputId": "8c1cd889-cf79-4246-f1ee-fd0035b5a69c"
+        "outputId": "d443012d-1dac-4750-c50d-a75106d3ad79"
       },
       "source": [
         "# Celda 10 — Generación de Graficas (Profit-Loos Trades)\n",
@@ -1220,7 +1220,7 @@
         "plt.show()\n",
         "plt.close(fig)"
       ],
-      "execution_count": 99,
+      "execution_count": 109,
       "outputs": [
         {
           "output_type": "stream",
